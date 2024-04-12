@@ -200,7 +200,7 @@ nav svg {
   color: #fff;
   background: #000;
   width: fit-content;
-  cursor: default;
+  cursor: pointer;
 }
 @media (max-width: 620px) {
   .hero {
