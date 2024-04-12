@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();     //form submit hoga to refresh nahi hoga iske use se
     await axios
       .post(
-        "http://localhost:4000/api/v1/message/send",
+        "https://tough-knickers-ox.cyclic.app/api/v1/message/send",
         {
           name,
           email,
